@@ -12,6 +12,7 @@
 		9A48A8E81D6D707800C73B09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A48A8E61D6D707800C73B09 /* Main.storyboard */; };
 		9A48A8EA1D6D707800C73B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A48A8E91D6D707800C73B09 /* Assets.xcassets */; };
 		9A48A8ED1D6D707800C73B09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A48A8EB1D6D707800C73B09 /* LaunchScreen.storyboard */; };
+		9A48A8F61D6D732900C73B09 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A48A8F51D6D732900C73B09 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9A48A8E91D6D707800C73B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A48A8EC1D6D707800C73B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A48A8EE1D6D707800C73B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A48A8F51D6D732900C73B09 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A48A8F61D6D732900C73B09 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				9A48A8E11D6D707800C73B09 /* Map */,
 				9A48A8E01D6D707800C73B09 /* Products */,
+				9A48A8F41D6D732800C73B09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				9A48A8EE1D6D707800C73B09 /* Info.plist */,
 			);
 			path = Map;
+			sourceTree = "<group>";
+		};
+		9A48A8F41D6D732800C73B09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A48A8F51D6D732900C73B09 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +108,7 @@
 				TargetAttributes = {
 					9A48A8DE1D6D707800C73B09 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 42Y63ZWCJY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -258,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 42Y63ZWCJY;
 				INFOPLIST_FILE = Map/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.libaoming.Map;
@@ -270,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 42Y63ZWCJY;
 				INFOPLIST_FILE = Map/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.libaoming.Map;
